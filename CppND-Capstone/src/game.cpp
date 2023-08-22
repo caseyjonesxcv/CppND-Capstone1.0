@@ -60,7 +60,7 @@ void Game::Run(Controller const &controller, Renderer &renderer,
 
 void Game::PlaceFood() {
   int x, y;
-  while (true) {
+   while (true) {
     x = random_w(engine);
     y = 0;
     // Check that the location is not occupied by a snake item before placing
